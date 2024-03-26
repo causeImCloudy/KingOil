@@ -1,0 +1,110 @@
+{
+  "purchaseProperty": [
+    {
+    "question": "Player has the ability to purchase a property. What would you like to do?",
+        "answers": [
+          {
+            "answer" : "Purchase a Property.",
+            "value" : 0
+          },
+          {
+            "answer" : "Do nothing / Burn the ability to purchase a property.",
+            "value" : -2
+          }
+        ],
+    "sub-questions" : [
+      {
+        "question": "Which property would you like to buy?",
+        "answers": [
+          "TO BE PROGRAMMATICALLY UPDATED"
+        ]
+      }
+    ]
+  }
+  ],
+  "optionals" : [
+    {
+      "question": "Would you like to perform any optional actions?",
+      "answers": [
+        {
+          "answer": "Trade with another player.",
+          "value": 0
+        },
+        {
+          "answer": "Build a pipeline.",
+          "value": 1
+        },
+        {
+          "answer": "None.",
+          "value": -2
+        }
+      ],
+      "sub-questions": [
+        {
+          "question": "What would you like to trade?",
+          "answers": [
+            "TO BE PROGRAMMATICALLY UPDATED"
+          ],
+          "sub-questions": []
+        },
+        {
+          "question": "Where would you like to build a pipeline? ",
+          "answers": [
+            "TO BE PROGRAMMATICALLY UPDATED"
+          ]
+        }
+      ]
+    }
+  ],
+  "purchaseFirstProperty": [
+    {
+    "question": "Player has the ability to purchase a property. What would you like to do?",
+        "answers": [
+          {
+            "answer" : "Purchase a Property.",
+            "value" : 0
+          }
+        ],
+    "sub-questions" : [
+      {
+        "question": "Which property would you like to buy?",
+        "answers": [
+          "TO BE PROGRAMMATICALLY UPDATED"
+        ]
+      }
+      ]
+    }
+    ],
+  "fireDamageProperty" : [
+    {
+    "question": "Player Must Burn an oil rig. Which property",
+        "answers": [
+           "TO BE PROGRAMMATICALLY UPDATED"
+        ],
+       "sub-questions" : [
+    ]
+      }
+    ],
+  "drillForFirstOil" : [
+    {
+    "question": "Player must drill for oil. Which property would you like to drill on?",
+        "answers": [
+        ],
+       "sub-questions" : [
+    ]
+      }
+    ],
+  "drillForOil" : [
+    {
+    "question": "Player can drill for oil. Which property would you like to drill on?",
+        "answers": [
+          {
+              "answer": "Stop drilling for oil.",
+              "value": -2
+          }
+        ],
+       "sub-questions" : [
+    ]
+      }
+    ]
+}

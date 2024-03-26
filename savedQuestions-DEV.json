@@ -1,0 +1,89 @@
+{
+  "purchaseProperty": [
+    {
+    "question": "Player has the ability to purchase a property. What would you like to do?",
+        "answers": [
+          {
+            "answer" : "Purchase a Property.",
+            "value" : 0
+          },
+          {
+            "answer" :  "Sell the ability to purchase a property.",
+            "value" : 1
+          },
+          {
+            "answer" : "Do nothing / Burn the ability to purchase a property.",
+            "value" : -2
+          }
+        ],
+    "sub-questions" : [
+      {
+        "question": "Which property would you like to buy?",
+        "answers": [
+          "TO BE PROGRAMMATICALLY UPDATED"
+        ]
+      },
+      {
+       "question": "How much would you like to sell the property for?",
+        "answers": {
+          "math_validation": "<answer> % 500 == 0",
+          "error" : "Price must be divisible by 500."
+        }
+      }
+    ]
+  }
+  ],
+  "optionals" : [
+    {
+      "question": "Would you like to perform any optional actions?",
+      "answers": [
+        {
+          "answer": "Trade with another player.",
+          "value": 0
+        },
+        {
+          "answer": "Build a pipeline.",
+          "value": 1
+        },
+        {
+          "answer": "None.",
+          "value": -2
+        }
+      ],
+      "sub-questions": [
+        {
+          "question": "What would you like to trade?",
+          "answers": [
+            "TO BE PROGRAMMATICALLY UPDATED"
+          ],
+          "sub-questions": []
+        },
+        {
+          "question": "Where would you like to build a pipeline? ",
+          "answers": [
+            "TO BE PROGRAMMATICALLY UPDATED"
+          ]
+        }
+      ]
+    }
+  ],
+  "purchaseFirstProperty": [
+    {
+    "question": "Player has the ability to purchase a property. What would you like to do?",
+        "answers": [
+          {
+            "answer" : "Purchase a Property.",
+            "value" : 0
+          }
+        ],
+    "sub-questions" : [
+      {
+        "question": "Which property would you like to buy?",
+        "answers": [
+          "TO BE PROGRAMMATICALLY UPDATED"
+        ]
+      }
+      ]
+    }
+    ]
+  }
