@@ -165,3 +165,6 @@ cython_debug/
 =======
 #.idea/
 >>>>>>> refs/remotes/orgin/main
+
+# Game Saves
+*.pickle
